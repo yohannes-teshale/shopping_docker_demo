@@ -1,0 +1,53 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:6-jammy
+    container_name: mongo
+    restart: always
+
+    ports:
+      - "27011:27017"
+    networks:
+      - myNet
+  product:
+    image: koedakyokotsu/product:latest
+    container_name: product
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - myNet
+    depends_on:
+      - mongo
+  shopping:
+    image: koedakyokotsu/shopping-service:latest
+    container_name: shopping
+    restart: always
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - myNet
+    ports:
+      - "9000:9000"
+    depends_on:
+      - mongo
+  restclient:
+    image: koedakyokotsu/client:latest
+    container_name: client
+    restart: always
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - myNet
+    ports:
+      - "80:80"
+    depends_on:
+      - product
+      - shopping
+networks:
+  myNet :
+    driver: bridge
+
+

@@ -1,0 +1,6 @@
+product:
+  service:
+    url: http://localhost:8080/products
+shopping:
+  service:
+    url: http://localhost:9000/carts

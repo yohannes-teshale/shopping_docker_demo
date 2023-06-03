@@ -1,0 +1,6 @@
+product:
+  service:
+    url: http://product:8080/products
+shopping:
+  service:
+    url: http://shopping:9000/carts

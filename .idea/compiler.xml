@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopping-service" />
+        <module name="client" />
+        <module name="product" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ClientApplication" target="17" />
+      <module name="lab4" target="17" />
+      <module name="ShoppingService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClientApplication" options="-parameters" />
+      <module name="ShoppingService" options="-parameters" />
+      <module name="client" options="-parameters" />
+      <module name="lab4" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="shopping-service" options="-parameters" />
+    </option>
+  </component>
+</project>

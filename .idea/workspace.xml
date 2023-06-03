@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb5d3b4a-32f1-4992-9061-416920c2120d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProductService/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingService/src/main/resources/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restClient/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/ProductRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/domain/ProductRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/lab4/lab4/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/ShoppingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/ShoppingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/controller/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/CartLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/CartLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/domain/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/CartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/CartRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/CartResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/CartResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/dto/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/repository/ShoppingCartRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/repository/ShoppingCartRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/service/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/main/java/ShoppingService/service/ShoppingCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingService/src/test/java/ShoppingService/ShoppingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingService/src/test/java/ShoppingService/ShoppingServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient" beforeDir="false" afterPath="$PROJECT_DIR$/restClient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/CartResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ProductRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ProductRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/java/com/restclient/domain/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restClient/src/test/java/com/restclient/Lab4ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/restClient/src/test/java/com/restclient/Lab4ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="gke_still-bank-387713_us-central1_event-ticketing-microservice" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="docker-image" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2QhZmSpQ6AiRaYcsJN0dWGLLmKa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20230603_0004",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yohannes/Downloads/shopping/restClient/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/restClient/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ShoppingService/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ProductService/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.restclient.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lab4.lab4.Lab4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ShoppingService.ShoppingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="ShoppingService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.mongo: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongo" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.product: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="product" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.product: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.mongo: Compose Deployment" />
+        <item itemvalue="Docker.ShoppingService/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb5d3b4a-32f1-4992-9061-416920c2120d" name="Changes" comment="" />
+      <created>1685807932316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685807932316</updated>
+      <workItem from="1685807933389" duration="4364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
